@@ -1,95 +1,600 @@
 <!DOCTYPE html>
-    <html lang="en">
+    <html lang="en" dir="ltr">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!--==================== UNICONS ====================-->
-        
-        
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="">
-        
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="">
-
-        <title>Responsive Portfolio Website</title>
+        <title>Artyom Samsonov portfolio</title>
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <script src="https://unpkg.com/scrollreveal"></script>
     </head>
     <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            
+
+        <!--==================== Scroll to top button ====================-->
+        <div class="scrollToTop-btn flex-center">
+            <i class="fas fa-arrow-up"></i>
+        </div>
+
+        <!--==================== Light/Dark theme button ====================-->
+        <div class="theme-btn flex-center">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+        </div>
+
+        <!--==================== Header ====================-->
+        <header>
+            <div class="nav-bar">
+                <a href="#" class="logo">Artyom</a>
+                <div class="navigation">
+                    <div class="nav-items">
+                        <div class="nav-close-btn"></div>
+                        <a class="active" href="#home">Home</a>
+                        <a href="#about">About me</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#services">Services</a>
+                        <a href="#portfolio">Portfolio</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                <div class="nav-menu-btn"></div>
+            </div>
         </header>
-
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                
-            </section>
-
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-
-        
-            </section>
-
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
-
-
-            </section>
-
-            <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section">
-
-
-            </section>
-
-            <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                
-
-            </section>
-
-            <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
-                
-
-            </section>
-
-            <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
-
-
-            </section>
-
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-                
-
-            </section>
-
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
-
-
-            </section>
-        </main>
-
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-
+    <!--==================== Home section ====================-->
+        <section class="home flex-center" id="home">
+            <div class="home-container">
+                <div class="media-icons">
+                    <a href="https://github.com/ArtyomSamsonov" target="blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/artsam556" target="blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/89274401962" target="blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://t.me/arty556" target="blank"><i class="fab fa-telegram"></i></a>
+                    <a href="mailto:artyom556@mail.ru" target="blank"><i class="fas fa-envelope"></i></a>
+                </div>
+                <div class="info">
+                    <h2>Hi, my name is Artyom</h2>
+                    <h3>And I am a Frontend Developer</h3>
+                    <p>I am looking for interesting work and to increase my skills as a Web Developer. Let's create some perfect together.</p>
+                    <a href="mailto:artyom556@mail.ru" class="btn" target="blank">Contact Me <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+                <div class="home-img">
+                    <img src="./assets/img/portf-circle.png" alt="">
+                </div>
+            </div>
+            <a href="#about"class="scroll-down">Scroll Down<i class="fas fa-arrow-down"></i></a>
+        </section>
             
+        <!--==================== About section ====================-->
+        <section class="about section" id="about">
+            <div class="container flex-center">
+                <h1 class="section-title-01">About Me</h1>
+                <h2 class="section-title-02">About Me</h2>
+                <div class="content flex-center">
+                    <div class="about-img">
+                        <img src="./assets/img/perfil.jpeg" alt="">
+                    </div>
+                    <div class="about-info">
+                        <div class="description">
+                            <h3>I'm Artyom</h3>
+                            <h4>A <span>Frontend Developer</span> based in <span>Kazan, Russia</span></h4>
+                            <p>I have a master's degree from a civil engineering university and have worked in the construction industry both as a specialist and in managerial positions. However, I decided to change my career and discover the amazing world of programming. I decided to start my journey with the specialization of Frontend development. Since October 2021, I have been intensively studying front-end technologies, including Javascript, React, Redux, Material UI
+                                and I intend to further expand my knowledge.</p>
+                        </div>
+                        <ul class="professional-list">
+                            <li class="list-item">
+                                <h3>4+</h3>
+                                <span>Month of<br>learning</span>
+                            </li>
+                            <li class="list-item">
+                                <h3>2+</h3>
+                                <span>Programming languages</span>
+                            </li>
+                            <li class="list-item">
+                                <h3>&#x221e</h3>
+                                <span>Desire to <br>learn</span>
+                            </li>
+                        </ul>
+                        <a href="./assets/pdf/Самсонов Артем Павлович.pdf" class="btn" target="blank">Download CV <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== Skills section ====================-->
+        <section class="skills section" id="skills">
+            <div class="container flex-center">
+                <h1 class="section-title-01">Skills</h1>
+                <h2 class="section-title-02">Skills</h2>
+                <div class="content">
+                    <div class="skills-description">
+                        <h3>Education & Skills</h3>
+                        <p>I am inspired by creating great work with people who are as passionate as I am about building something awesome.</p>
+                    </div>
+                    <div class="skills-info education-all">
+                        <div class="education">
+                            <h4><label>Education</label></h4>
+                            <ul class="edu-list">
+                                <li class="item">
+                                    <span class="year">2021-2021</span>
+                                    <p><span>Frontend Development</span> - Innopolis University, Innopolis, Russia</p>
+                                </li>
+                                <li class="item">
+                                    <span class="year">2018-2020</span>
+                                    <p><span>Civil engineer (MASTER)</span> - Kazan State University of Architecture and Engineering (KSUAE), Kazan, Russia</p>
+                                </li>
+                                <li class="item">
+                                    <span class="year">2012-2016</span>
+                                    <p><span>Civil engineer (BACHELOR)</span> - Kazan State University of Architecture and Engineering (KSUAE), Kazan, Russia</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="education">
+                            <h4><label>Skills</label></h4>
+                            <ul class="bars">
+                                <li class="bar">
+                                    <div class="info">
+                                        <span>HTML</span>
+                                        <span>95%</span>
+                                    </div>
+                                    <div class="line html"></div>
+                                </li>
+                                <li class="bar">
+                                    <div class="info">
+                                        <span>CSS</span>
+                                        <span>85%</span>
+                                    </div>
+                                    <div class="line css"></div>
+                                </li>
+                                <li class="bar">
+                                    <div class="info">
+                                        <span>JavaScript</span>
+                                        <span>75%</span>
+                                    </div>
+                                    <div class="line javascript"></div>
+                                </li>
+                                <li class="bar">
+                                    <div class="info">
+                                        <span>TypeScript</span>
+                                        <span>10%</span>
+                                    </div>
+                                    <div class="line typescript"></div>
+                                </li>
+                                <li class="bar">
+                                    <div class="info">
+                                        <span>Python</span>
+                                        <span>20%</span>
+                                    </div>
+                                    <div class="line python"></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="education">
+                            <h4><label>Awards</label></h4>
+                            <ul class="edu-list">
+                                <li class="item">
+                                    <span class="year">2020</span>
+                                    <p><span>Certificate of honor</span> - from the head of the Department of Education of the city of Kazan</p>
+                                </li>
+                                <li class="item">
+                                    <span class="year">2019</span>
+                                    <p><span>Letter of Appreciation</span> - from the Mayor of Kazan</p>
+                                </li>
+                                <li class="item">
+                                    <span class="year">2018</span>
+                                    <p><span>Letter of Appreciation</span> - from the Head of the District Administration of Kazan</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="skills-description">
+                        <h3>Work & Experience</h3>
+                    </div>
+                    <div class="skills-info">
+                        <div class="experience-card">
+                            <div class="upper">
+                                <h3>Deputy Head of Program Coordination Department</h3>
+                                <h5>Full Time | Office</h5>
+                                <span>2020 - 2021</span>
+                            </div>
+                            <div class="hr"></div>
+                            <h4><label>Department for the maintenance of social institutions of the city of Kazan</label></h4>
+                            <p>Analytics of information on construction, tracking the deadlines for the execution of contracts. Formation of the need for repair work. Participation in the development of new projects and programs, preparation of content for social media.</p>
+                        </div>
+                        <div class="experience-card">
+                            <div class="upper">
+                                <h3>Chief Specialist of the Analytical Department</h3>
+                                <h5>Full Time | Office</h5>
+                                <span>2019 - 2020</span>
+                            </div>
+                            <div class="hr"></div>
+                            <h4><label>Executive Committee of the Municipal Formation of the city of Kazan</label></h4>
+                            <p>Preparation and analysis of information on construction and repair work on the territory of the city of Kazan, monitoring terms of execution of contracts and performance of works.</p>
+                        </div>
+                        <div class="experience-card">
+                            <div class="upper">
+                                <h3>Chief specialist of the landscaping department</h3>
+                                <h5>Full Time | Office</h5>
+                                <span>2018 - 2019</span>
+                            </div>
+                            <div class="hr"></div>
+                            <h4><label>Administration of the Sovetsky District of the City of Kazan</label></h4>
+                            <p>Work with document flow, large data arrays, formation of tender documentation (contracts, terms of reference, market analysis, scope of work).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+
+        <!--==================== Services section ====================-->
+        <section class="services section" id="services">
+            <div class="container flex-center">
+                <h1 class="section-title-01">Services</h1>
+                <h2 class="section-title-02">Services</h2>
+                <div class="content">
+                    <div class="services-description">
+                        <h3>How can I help</h3>
+                    </div>
+                    <ul class="service-list">
+                        <li class="service-container">
+                            <div class="service-card">
+                                <i class="fas fa-pencil-ruler"></i>
+                                <h3>UI/UX Consultancy</h3>
+                                <div class="learn-more-btn">Learn More <i class="fas fa-long-arrow-alt-right"></i></div>
+                            </div>
+                            <div class="service-modal flex-center">
+                                <div class="service-modal-body">
+                                    <i class="fas fa-times modal-close-btn"></i>
+                                    <h3>UI/UX Consultancy</h3>
+                                    <h4>What is UX consulting?</h4>
+                                    <p>UX consulting helps companies improve their product's overall usability and optimize expenses by implementing the right UX processes, methods, and tools.</p>
+                                    <h4>What I provide</h4>
+                                    <ul>
+                                        <li><i class="fas fa-check-circle"></i> Establish the right UX processes</li>
+                                        <li><i class="fas fa-check-circle"></i> Create exceptional user experiences</li>
+                                        <li><i class="fas fa-check-circle"></i> Discover new business opportunities</li>
+                                        <li><i class="fas fa-check-circle"></i> Save resources</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="service-container">
+                            <div class="service-card">
+                                <i class="fas fa-photo-video"></i>
+                                <h3>Branding & Design</h3>
+                                <div class="learn-more-btn">Learn More <i class="fas fa-long-arrow-alt-right"></i></div>
+                            </div>
+                            <div class="service-modal flex-center">
+                                <div class="service-modal-body">
+                                    <i class="fas fa-times modal-close-btn"></i>
+                                    <h3>Branding & Design</h3>
+                                    <h4>What is Brand & Design?</h4>
+                                    <p>Brand Design can be defined as one of the crucial marketing practices of creating the name, logo, design, and the symbolic elements related to the brand to create a distinctive identity in comparison to the other brands in the market and also providing impetus to the product differentiation.</p>
+                                    <h4>What I provide</h4>
+                                    <ul>
+                                        <li><i class="fas fa-check-circle"></i> Logo Design</li>
+                                        <li><i class="fas fa-check-circle"></i> Banner Design</li>
+                                        <li><i class="fas fa-check-circle"></i> Visual Identity Packages</li>
+                                        <li><i class="fas fa-check-circle"></i> Business Cards & Business Systems</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="service-container">
+                            <div class="service-card">
+                                <i class="fas fa-file-code"></i>
+                                <h3>Web Development</h3>
+                                <div class="learn-more-btn">Learn More <i class="fas fa-long-arrow-alt-right"></i></div>
+                            </div>
+                            <div class="service-modal flex-center">
+                                <div class="service-modal-body">
+                                    <i class="fas fa-times modal-close-btn"></i>
+                                    <h3>Web Development</h3>
+                                    <h4>What is Web Development?</h4>
+                                    <p>Web Development services are used to design, build, support, and evolve all types of web-based software.</p>
+                                    <h4>What I provide</h4>
+                                    <ul>
+                                        <li><i class="fas fa-check-circle"></i> Web application development</li>
+                                        <li><i class="fas fa-check-circle"></i> Testing</li>
+                                        <li><i class="fas fa-check-circle"></i> Maintenance</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="service-container">
+                            <div class="service-card">
+                                <i class="fas fa-align-left"></i>
+                                <h3>Content Writing</h3>
+                                <div class="learn-more-btn">Learn More <i class="fas fa-long-arrow-alt-right"></i></div>
+                            </div>
+                            <div class="service-modal flex-center">
+                                <div class="service-modal-body">
+                                    <i class="fas fa-times modal-close-btn"></i>
+                                    <h3>Content Writing</h3>
+                                    <h4>What is Content Writing?</h4>
+                                    <p>Content writing is the process of planning, writing and editing web content, typically for digital marketing purposes.</p>
+                                    <h4>What I provide</h4>
+                                    <ul>
+                                        <li><i class="fas fa-check-circle"></i> Web content writing</li>
+                                        <li><i class="fas fa-check-circle"></i> Blog writing for websites</li>
+                                        <li><i class="fas fa-check-circle"></i> Social media content</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== Portfolio section ====================-->
+        <section class="portfolio section" id="portfolio">
+            <div class="container flex-center">
+                <h1 class="section-title-01">Portfolio</h1>
+                <h2 class="section-title-02">Portfolio</h2>
+                <div class="content">
+                    <div class="portfolio-list">
+                        <div class="img-card-container">
+                            <div class="img-card">
+                                <div class="overlay"></div>
+                                <div class="info">
+                                    <h3>Web Design</h3>
+                                    <span>Youtube</span>
+                                </div>
+                                <img src="./assets/img/portfolio1.jpg" alt="">
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <h3>Web Design</h3>
+                                    <img src="assets/img/portfolio1.jpg" alt="">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita deleniti quod numquam, aliquam necessitatibus quisquam nemo officiis. Optio laborum quisquam in consectetur, delectus modi error obcaecati provident libero facere similique.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-card-container">
+                            <div class="img-card">
+                                <div class="overlay"></div>
+                                <div class="info">
+                                    <h3>UI/UX Design</h3>
+                                    <span>Youtube</span>
+                                </div>
+                                <img src="./assets/img/portfolio2.jpg" alt="">
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <h3>UI/UX Design</h3>
+                                    <img src="assets/img/portfolio2.jpg" alt="">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita deleniti quod numquam, aliquam necessitatibus quisquam nemo officiis. Optio laborum quisquam in consectetur, delectus modi error obcaecati provident libero facere similique.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-card-container">
+                            <div class="img-card">
+                                <div class="overlay"></div>
+                                <div class="info">
+                                    <h3>Branding & Design</h3>
+                                    <span>Youtube</span>
+                                </div>
+                                <img src="./assets/img/portfolio3.jpg" alt="">
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <h3>Branding & Design</h3>
+                                    <img src="assets/img/portfolio3.jpg" alt="">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita deleniti quod numquam, aliquam necessitatibus quisquam nemo officiis. Optio laborum quisquam in consectetur, delectus modi error obcaecati provident libero facere similique.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-card-container">
+                            <div class="img-card">
+                                <div class="overlay"></div>
+                                <div class="info">
+                                    <h3>Web Development</h3>
+                                    <span>Youtube</span>
+                                </div>
+                                <img src="./assets/img/portfolio4.jpg" alt="">
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <h3>Web Development</h3>
+                                    <img src="assets/img/portfolio4.jpg" alt="">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita deleniti quod numquam, aliquam necessitatibus quisquam nemo officiis. Optio laborum quisquam in consectetur, delectus modi error obcaecati provident libero facere similique.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-card-container">
+                            <div class="img-card">
+                                <div class="overlay"></div>
+                                <div class="info">
+                                    <h3>Content writing</h3>
+                                    <span>Youtube</span>
+                                </div>
+                                <img src="./assets/img/portfolio5.jpg" alt="">
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <h3>Content writing</h3>
+                                    <img src="assets/img/portfolio5.jpg" alt="">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita deleniti quod numquam, aliquam necessitatibus quisquam nemo officiis. Optio laborum quisquam in consectetur, delectus modi error obcaecati provident libero facere similique.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-card-container">
+                            <div class="img-card">
+                                <div class="overlay"></div>
+                                <div class="info">
+                                    <h3>Interface Design</h3>
+                                    <span>Youtube</span>
+                                </div>
+                                <img src="./assets/img/portfolio6.jpg" alt="">
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <h3>Interface Design</h3>
+                                    <img src="assets/img/portfolio6.jpg" alt="">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita deleniti quod numquam, aliquam necessitatibus quisquam nemo officiis. Optio laborum quisquam in consectetur, delectus modi error obcaecati provident libero facere similique.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--==================== Get-in-touch ====================-->
+            <div class="get-in-touch sub-section">
+                <div class="container">
+                    <div class="content flex-center">
+                        <div class="contact-card flex-center">
+                            <div class="title">
+                                <h4>Let's Talk</h4>
+                                <h3>About Your</h3>
+                                <h2>Next Project</h2>
+                            </div>
+                            <div class="contact-btn">
+                                <a href="https://t.me/arty556" class="btn" target="blank">Get In Touch <i class="fas fa-paper-plane"></i></a>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+
+            <!--==================== Our Clients ====================-->
+            <div class="our-client sub-section">
+                <div class="container flex-center">
+                    <h1 class="section-title-01">Our Clients</h1>
+                    <h2 class="section-title-02">Our Clients</h2>
+                    <div class="content">
+                        <div class="swiper client-swiper">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide flex-center">
+                                  <div class="client-img">
+                                      <img src="assets/img/testimonial1.jpg" alt="">
+                                  </div>
+                                  <div class="client-details">
+                                      <p>Hi, I'm QA engineer who dream making the world better place by better products like this.</p>
+                                      <h3>Marina Mingaleeva</h3>
+                                      <span>QA Engineer</span>
+                                  </div>
+                              </div>
+                              <div class="swiper-slide flex-center">
+                                  <div class="client-img">
+                                      <img src="assets/img/testimonial2.jpg" alt="">
+                                  </div>
+                                  <div class="client-details">
+                                      <p>I really liked the selection of interesting projects, and more importantly, the attention to detail just amazes me.</p>
+                                      <h3>Konstantin Krumin</h3>
+                                      <span>Fullstack Developer</span>
+                                  </div>
+                              </div>
+                              <div class="swiper-slide flex-center">
+                                  <div class="client-img">
+                                      <img src="assets/img/testimonial3.jpg" alt="">
+                                  </div>
+                                  <div class="client-details">
+                                      <p>This guy really knows what he's doing! Openness to new clients and excellent kindness. I am very glad that I know this man!</p>
+                                      <h3>Damir Latypov</h3>
+                                      <span>Marketing Manager</span>
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="swiper-button-next">
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+                            <div class="swiper-button-prev">
+                                <i class="fas fa-chevron-left"></i>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== Contact section ====================-->
+        <section class="contact section" id="contact">
+            <div class="container flex-center">
+                <h1 class="section-title-01">Contact Me</h1>
+                <h2 class="section-title-02">Contact Me</h2>
+                <div class="content">
+                    <div class="contact-left">
+                        <h2>Let's discuss your project</h2>
+                        <ul class="contact-list">
+                            <li>
+                                <h3 class="item-title"><i class="fas fa-phone"></i> Phone</h3>
+                                <span><a href="tel:+7(927)440-19-62">+7 (927) 440-19-62</a></span>
+                            </li>
+                            <li>
+                                <h3 class="item-title"><i class="fas fa-envelope"></i> Email Address</h3>
+                                <span><a href="mailto:artyom556@mail.ru" target="blank">artyom556@mail.ru</a></span>
+                            </li>
+                            <li>
+                                <h3 class="item-title"><i class="fas fa-map-marker-alt"></i> Official Address</h3>
+                                <span>420133, Russia, Republic of Tatarstan, Kazan</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contact-right">
+                        <p>I'm always open to discussing product<br><span> design work or partnerships.</span></p>
+                        <form action="" class="contact-form">
+                            <div class="first-row">
+                                <input type="text" placeholder="Name">
+                            </div>
+                            <div class="second-row">
+                                <input type="email" placeholder="Email">
+                                <input type="text" placeholder="Subject">
+                            </div>
+                            <div class="third-row">
+                                <textarea name="message" id="" rows="7" placeholder="Message"></textarea>
+                            </div>
+                            <button class="btn" type="submit">Send Message <i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <!--==================== Footer ====================-->
+        <footer>
+            <div class="footer-container">
+                <div class="about group">
+                    <h2>Artyom</h2>
+                    <p>Frontend Developer</p>
+                    <a href="#about">About Me</a>
+                </div>
+                <div class="hr"></div>
+                <div class="info group">
+                    <h3>More</h3>
+                    <ul>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="hr"></div>
+                <div class="follow group">
+                    <h3>Follow</h3>
+                    <ul>
+                        <li><a href="" target="blank"><i class="fab fa-github"></i></a></li>
+                        <li><a href="" target="blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="" target="blank"><i class="fab fa-whatsapp"></i></a></li>
+                        <li><a href="https://t.me/arty556" target="blank"><i class="fab fa-telegram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copyright group">
+                <p>© 2022 by Artyom Samsonov. All rights reserved.</p>
+            </div>
         </footer>
-        
-        <!--==================== SCROLL TOP ====================-->
-        
 
-        <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
-
-        <!--==================== MAIN JS ====================-->
-        <script src=""></script>
+        <!--==================== External scripts ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="./assets/js/main.js"></script>
     </body>
 </html>
