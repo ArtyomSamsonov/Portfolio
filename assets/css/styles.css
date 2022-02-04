@@ -250,10 +250,6 @@ header.sticky .nav-bar {
     line-height: 70px;
 }
 
-/* .home .info h2, .home .info h3, .home .info p, .media-icons i, .home .info .btn, .section-title-01, .section-title-02, .scroll-down {
-    overflow-x: hidden !important;
-} */
-
 .home-container .info h3 {
     color: var(--third-color);
     font-feature-settings: 1.3em;
@@ -400,10 +396,6 @@ header.sticky .nav-bar {
     border-radius: 10px;
 }
 
-/* .about-img, .about .description, .about-info .btn, .about .professional-list li {
-    overflow-x: hidden !important;
-} */
-
 .about-info .description {
     max-width: 600px;
 }
@@ -464,10 +456,6 @@ header.sticky .nav-bar {
     max-width: 700px;
     margin-bottom: 50px;
 }
-
-/* .skills-description, .experience-card {
-    overflow-x: hidden !important;
-} */
 
 .skills-description h3 {
     font-size: 2em;
@@ -633,10 +621,6 @@ header.sticky .nav-bar {
     margin-bottom: 50px;
 }
 
-/* .services-description, .service-card {
-    overflow-x: hidden !important;
-} */
-
 .service-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
@@ -754,10 +738,6 @@ header.sticky .nav-bar {
     gap: 35px;
     margin: 0 auto;
 }
-
-/* .portfolio .img-card {
-    overflow-x: hidden !important;
-} */
 
 .portfolio-list .img-card {
     position: relative;
@@ -885,10 +865,6 @@ header.sticky .nav-bar {
     column-gap: 50px;
 }
 
-/* .contact-card {
-    overflow-x: hidden !important;
-} */
-
 .contact-card .title {
     text-transform: uppercase;
     line-height: 60px;
@@ -922,10 +898,6 @@ header.sticky .nav-bar {
 .our-client .container .content {
     width: 100%;
 }
-
-/* .client-swiper {
-    overflow-x: hidden !important;
-} */
 
 .client-swiper .swiper-wrapper {
     margin-bottom: 30px;
@@ -1022,10 +994,6 @@ header.sticky .nav-bar {
     color: var(--third-color);
 }
 
-/* .contact-right, .contact-left li, .contact-left h2 {
-    overflow-x: hidden !important;
-} */
-
 .contact-right p {
     color: var(--third-color);
     font-size: 1.6em;
@@ -1092,10 +1060,6 @@ footer {
 footer a {
     color: #fff;
 }
-
-/* footer .group {
-    overflow-x: hidden !important;
-} */
 
 .footer-container {
     display: flex;
@@ -1329,7 +1293,7 @@ footer a {
     }
     
     body {
-        margin: 5rem 0 0 0;
+        /* margin: 5rem 0 0 0; */
     }
 
     ::-webkit-scrollbar { 
