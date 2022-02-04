@@ -835,6 +835,11 @@ header.sticky .nav-bar {
     cursor: pointer;
 }
 
+.portfolio-btns .btn {
+    width: 100px;
+    text-align: center;
+}
+
 .portfolio-model-body h3 {
     font-size: 1.5em;
 }
